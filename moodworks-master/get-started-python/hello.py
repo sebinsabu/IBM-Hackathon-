@@ -76,15 +76,15 @@ def input_return():
   tweetid = request.form['tweetid']
   natural_language_understanding = NaturalLanguageUnderstandingV1(
 
-  username='6c767224-ec65-43cb-91d3-eea204c9cc9d',
-  password='o2MQGv8WIvTm',
-  version='2018-03-16')
+  username='USERNAME',
+  password='PASSWORD',
+  version='VERSION')
 
 ####input your credentials here
-  consumer_key = 'VFBEwMpMjtlV8OIA0mfucV6kY'
-  consumer_secret = 'eukgnIEVhoXF2B7Z34UpDozbNoBPza97A8eimYQKX5gVij8WKc'
-  access_token = '1041578973338066944-kvBimbneKmEGrXZeUralzYQB3fY4a6'
-  access_token_secret = 'F5CnUDFqldUJL20n45wy9OI3OSg63dBIBcoVQA3baZKV2'
+  consumer_key = 'YOUR CONSUMER KEY'
+  consumer_secret = 'YOUR CONSUMER SECRET'
+  access_token = 'YOUR ACCESS TOKEN'
+  access_token_secret = 'YOUR ACCESS TOKEN SECRET'
 
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_token_secret)
