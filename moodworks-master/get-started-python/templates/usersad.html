@@ -1,0 +1,127 @@
+<style>
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+#my-div {
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+}
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seems you need a Hi-Fi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>You seem pretty sad :-)..What's up?</h1>
+    <p>How can we make you feel better?</p> 
+  </div>
+
+ <div class='color container-fluid'>
+    <div class=row>
+    <h2>Enjoy a relaxing dance video from Youtube.</h2>
+    <div class ="video-responsive">
+    <p><iframe width="756" height="425" title ="Listen to a song" src="https://www.youtube.com/embed/p7GmO8ewjmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+    </div>
+    </div>
+  </div>
+
+ <div class='color container-fluid'>
+    <div class=row>
+    <h2>Or Enjoy a comedy video,to rise up your mood.</h2>
+
+    <div class ="video-responsive">
+    <iframe width="743" height="418" title ="Watch a funny Video"  src="https://www.youtube.com/embed/2IuFqOHozc4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </div>
+    </div>
+  </div>
+
+<br>
+
+<div class='color container-fluid'>
+
+  <h2>No thought of the day</h2> 
+  <div class="w3-display-container w3-green" style="height:200px;">
+  <div class="w3-display-middle">Or just do nothing.Enjoy the green..be mindful<p>Step out! observe the green everywhere.How nature stay in harmony and remember the beautiful moments in the life.</p></div>
+  </div>
+</div>
+
+<br>
+
+<div class='color container-fluid' >
+
+  <h2>I'm Feeling lucky</h2> 
+
+  <div class="w3-display-container w3-orange" style="height:200px;" >
+  <script>
+    var sites = [
+        'https://www.buzzfeed.com/tahliapritchard/a-playlist-for-all-your-emotions',
+        'https://themighty.com/2015/03/songs-to-cheer-you-up-on-a-tough-day/',
+        'https://www.theodysseyonline.com/43-songs-that-will-cheer-you-up-every-time',
+        'https://www.workflowmax.com/blog/10-songs-to-cheer-you-up-on-a-crappy-day',
+        'https://www.buzzfeed.com/annaborges/i-hope-youre-okay?utm_term=.qvbD2xx8j#.iiyVy227k',
+        'https://www.popsugar.com/smart-living/Songs-Make-You-Happy-34395808?crlt.pid=camp.K7EPFY3C9hI7&crlt.pid=camp.a4gGI27WLbsi',
+        'https://8tracks.com/explore/cheer_up_music',
+        'https://geekmom.com/2017/12/geekmom-smile-playlist-12-songs-to-cheer-you-up/'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+
+  <div class="w3-display-middle" ><a href="#"  onclick="randomSite();">Click Me to enjoy a random picked surprise for you</a></div>
+  
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+</body>
+</html>

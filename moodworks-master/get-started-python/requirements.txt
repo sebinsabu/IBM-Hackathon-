@@ -1,0 +1,6 @@
+Flask==0.12.2
+cloudant==2.4.0
+watson_developer_cloud==2.0.1
+textblob==0.15.1
+tweepy==3.5.0
+pandas==0.23.4
